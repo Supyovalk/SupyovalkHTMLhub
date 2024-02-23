@@ -1,6 +1,6 @@
 
 body{background-color: silver;font-family:Helvetica;}
-h1,h2 {text-align:center}
+h1,h2,p#centerpara {text-align:center}
 table, th, td {
     border: 1px solid black;
   }
