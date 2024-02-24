@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexstyle.css">
+    <title>QA Cheatsheet</title>
+</head>
+<body>
+    <h2>SDLC (Software delevopment life cycle)</h2>
+    <div style="text-align: center">
+        <table style="display: inline-block">
+            <tr style="background-color:white">
+                <td colspan="5">The Seven Stages of SDLC</td>
+            </tr>
+            <tr>
+                <td style="background-color:white">Stage</td>
+                <td style="background-color:white">Actions Taken</td>
+                <td style="background-color:white">Questions To Ask</td>
+                <td style="background-color:white">Who acts on this</td>
+                <td style="background-color:white">Result Product</td>
+            </tr>
+            <tr>
+                <td>Requirment Collection & Analysis</td>
+                <td>Checking A New Idea/Taking Requiremnts from clients</td>
+                <td>???</td>
+                <td>Product Owner,Business Analyst</td>
+                <td>Business Requirement Specification</td>
+            </tr>
+            <tr>
+                <td>Feasibility Study & Planning </td>
+                <td>Checking if the Product be realised,With current Timeframe,Resources and Tools</td>
+                <td>What/How/When to do and who does what?</td>
+                <td>Business Analyst,Project Manager, Chief Technology Officer</td>
+                <td>Software Requirement Specification</td>
+            </tr>
+            <tr>
+                <td>Design</td>
+                <td>Planning the Product' design</td>
+                <td>How it will work, UX/UI wise? Soft/Hardware wise? Coding Wise?</td>
+                <td>CTO, System Architext, UX/UI Designer</td>
+                <td>Design Document Specification, High/Low Level Design</td>
+            </tr>
+            <tr>
+                <td>Development & Coding</td>
+                <td>Writing the Code according to requirment documents</td>
+                <td>???</td>
+                <td>Developers (Front/Back end),Database Admin</td>
+                <td>Coded Product, Ready for testin</td>
+            </tr>
+            <tr>
+                <td>Testing</td>
+                <td>Test the Product according to requirements documents, reporting bugs, and check if they were fixed</td>
+                <td>how should the STP/STD be made?</td>
+                <td>All Testing Personal (Including QA)</td>
+                <td>Software Test Report,Verdict if the Product can be deployed.</td>
+            </tr>
+            <tr>
+                <td>Deployment</td>
+                <td>Deploy the Product on user's systems (On-Premise or as a service)</td>
+                <td>How and what version should be deployed?</td>
+                <td>DevOps,DBA</td>
+                <td>Working, Deployed Product, A User's Guide for the product</td>
+            </tr>
+            <tr>
+                <td>Maintainece</td>
+                <td>Support Product user with </td>
+                <td>How can we support people that use the product</td>
+                <td>Support Personal</td>
+                <td>Agrrement Document,Service Level Agreement</td>
+            </tr>
+        </table>
+    </div>
+    <h2>Test Types</h2>
+    <div style="text-align: center">
+    <table style="display: inline-block">
+        <tr><td colspan="3" style="background-color:white">Code Relationship Types</td></tr>
+        <tr><td>Black Box Testing</td><td colspan="2">Test the Output in relationship to output</td></tr>
+        <tr>
+            <td>White Box Testing</td>
+            <td colspan="2">Test the whole Process (where the code goes and does, what parts are used, etc.)</td>
+        </tr>
+        <tr>
+            <td> Static Testing</td>
+            <td colspan="2">Testing without activating the product, but by looking at it's design and looking for flaws</td>
+        </tr>
+        <tr>
+            <td>Dynamic Testing</td>
+            <td colspan="2">Testing by using the product</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color:white">Levels of Testing</td>
+        </tr>
+        <tr>
+            <td>Unit Testing</td>
+            <td colspan="2">Test a single componet (Like a page, a database, a function)</td>
+        </tr>
+        <tr>
+            <td>Integration Testing</td>
+            <td colspan="2">Test multiple componet and how they act together</td>
+        </tr>
+        <tr>
+            <td>System Testing</td>
+            <td colspan="2">Test the whole product and all the ecountered "Paths"</td>
+        </tr>
+        <tr>
+            <td>Acceptance Testing</td>
+            <td colspan="2">Give the product to "Edge users" to receive feedback</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color:white">Intention Types</td>
+        </tr>
+        <tr>
+            <td>Smoke/Sanity testing</td>
+            <td colspan="2">Test if the product works by design</td>
+        </tr>
+        <tr>
+            <td>Regression testing</td>
+            <td colspan="2">Test if upgrading/changing the product caused new problems</td>
+        </tr>
+        <tr>
+            <td>Explatory testing</td>
+            <td colspan="2">Test whatever, away from STD design,<b>should only be done with famillity with the product</b></td>
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color:white">Case Types</td>
+        </tr>
+        <tr>
+            <td style="background-color:white">Test type</td>
+            <td style="background-color:white">Summary</td>
+            <td style="background-color:white">Dumbed up Generalized Version</td>
+        </tr>
+        <tr>
+            <td>Functional Test</td>
+            <td>Test if the product does what it's desgined to</td>
+            <td>Thing works according to plan</td>
+        </tr>
+        <tr>
+            <td> GUI Test</td>
+            <td>Test if all the GUI componets are ordered and work as intended</td>
+            <td>Interacting with things works right</td>
+        </tr>
+        <tr>
+            <td>Usability test</td>
+            <td>Test if the product is easy for users to adapt and use</td>
+            <td>User Expirence is good</td>
+        </tr>
+        <tr>
+            <td>Compatibility Test</td>
+            <td>Check if the product works correctly under different evoiments (OS,Browsers, etc.)</td>
+            <td>The Thing works good regardless of its surroundings</td>
+        </tr>
+        <tr>
+            <td>Interface Test</td>
+            <td>Test if the product can correctly interact with the reuiqred external Interfaces (from extneral server to camera/microphone)</td>
+            <td>The thing can interact with other things right</td>
+        </tr>
+        <tr>
+            <td>Accessibility Test</td>
+            <td>Test if the product is usable regardless of user disability</td>
+            <td>The thing can be used by the disabled</td>
+        </tr>
+        <tr>
+            <td>Localization Test</td>
+            <td>Test if the product can align to the social evoiment of the user (Timezones,languages,religon and holiday, etc.)</td>
+            <td>The thing regards a user's preference</td>
+        </tr>
+        <tr>
+            <td>Survival & Recovery test</td>
+            <td>Test the product actions and backup when a critcal flaw happens to it (backup of data/user interaction)</td>
+            <td>The thing can survive and recover damages</td>
+        </tr>
+        <tr>
+            <td>Performance Test</td>
+            <td>Test the product's performance speed when in multiple cases (many users,many actions done, etc.)</td>
+            <td>The thing is doing stuff ASAP</td>
+        </tr>
+        <tr>
+            <td>Security Test</td>
+            <td>Test the actions done when somethings tries to brench user security</td>
+            <td>The thing is secure</td>
+        </tr>
+        <tr>
+            <td>Load/Stress Test</td>
+            <td>Test the upper limits of the system capablitles (max storage, max users, etc.)</td>
+            <td>The thing can withstand extreme situations</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
